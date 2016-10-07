@@ -17,7 +17,9 @@
         $(document).ready(function() {
             $('#fullpage').fullpage({
                 sectionsColor: ['pink', '#4BBFC3', '#7BAABE', 'salmon'],
-                menu: '#menu'
+                menu: '#menu',
+                navigation: true,
+                responsiveWidth: 900
             });
         });
     </script>
@@ -47,18 +49,10 @@
     </div>
 </div>
 <ul id="menu" class="right">
-    <li data-menuanchor="first" class="active"><a href="#first">First section</a></li>
+    <li data-menuanchor="first" class="active"><a href="#first"><span class="fa fa-warning"></span></a></li>
     <li data-menuanchor="second"><a href="#second">Second section</a></li>
     <li data-menuanchor="third"><a href="#third">Third section</a></li>
     <li data-menuanchor="fourth"><a href="#fourth">Fourth section</a></li>
-</ul><!--
-<div id="fp-nav" class="right" style="margin-top: -33.5px; display: block;">
-    <ul>
-        <li><a href="#first" class="active"><span></span></a><div class="fp-tooltip right">First page</div></li>
-        <li><a href="#second" class=""><span></span></a><div class="fp-tooltip right">Second page</div></li>
-        <li><a href="#third"><span></span></a><div class="fp-tooltip right">Third and last page</div></li>
-        <li><a href="#fourth"><span></span></a><div class="fp-tooltip right">Third and last page</div></li>
-    </ul>
-</div>-->
+</ul>
 </body>
 </html>
