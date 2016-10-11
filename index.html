@@ -17,8 +17,8 @@
         $(document).ready(function() {
             $('#fullpage').fullpage({
                 sectionsColor: ['pink', '#4BBFC3', '#7BAABE', 'salmon'],
+                anchors: ['first', 'second', 'third', 'fourth'],
                 menu: '#menu',
-                navigation: true,
                 responsiveWidth: 900
             });
         });
@@ -26,6 +26,12 @@
     <title>BartoszGajda.com</title>
 </head>
 <body>
+<div id="menu" class="navbar-fixed-top btn-group-vertical" style="width: 50px;">
+    <a data-menuanchor="first" class="btn btn-default" href="#first">1</a>
+    <a data-menuanchor="second" class="btn btn-default" href="#second">2</a>
+    <a data-menuanchor="third" class="btn btn-default" href="#third">3</a>
+    <a data-menuanchor="fourth" class="btn btn-default" href="#fourth">4</a>
+</div>
 <div id="fullpage">
     <div class="section" data-anchor="first">
         <div>
@@ -48,11 +54,5 @@
         </div>
     </div>
 </div>
-<ul id="menu" class="right" style="display: none;">
-    <li data-menuanchor="first" class="active"><a href="#first">1</a></li>
-    <li data-menuanchor="second"><a href="#second">2</a></li>
-    <li data-menuanchor="third"><a href="#third">3</a></li>
-    <li data-menuanchor="fourth"><a href="#fourth">4</a></li>
-</ul>
 </body>
 </html>
