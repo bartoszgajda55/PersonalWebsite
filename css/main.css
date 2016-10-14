@@ -1,0 +1,27 @@
+.active {
+    background-color: #95a5a6;
+}
+li {
+    height: 40px;
+    width: 50px;
+}
+ul {
+    margin: 0 !important;
+    padding: 0;
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 0;
+    z-index: 1;
+}
+i {
+    text-align: center;
+}
+li > a {
+    padding: 10px;
+    display: block;
+    color: black;
+}
+p {
+    text-align: center;
+}

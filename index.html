@@ -14,10 +14,10 @@
     <script src="js/scrolloverflow.min.js"></script>
     <script src="js/jquery.fullPage.js"></script>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             $('#fullpage').fullpage({
-                sectionsColor: ['pink', '#4BBFC3', '#7BAABE', 'salmon'],
-                anchors: ['first', 'second', 'third', 'fourth'],
+                sectionsColor: ['#ecf0f1', '#3498db', '#9b59b6', '#34495e', '#e74c3c', '#e67e22'],
+                anchors: ['home', 'about', 'timeline', 'skills', 'projects', 'contact'],
                 menu: '#menu',
                 responsiveWidth: 900
             });
@@ -26,31 +26,43 @@
     <title>BartoszGajda.com</title>
 </head>
 <body>
-<div id="menu" style="width: 50px; position: fixed; top: 10px; right: 0; z-index: 1;">
-    <a data-menuanchor="first" class="btn btn-default" href="#first">1</a>
-    <a data-menuanchor="second" class="btn btn-default" href="#second">2</a>
-    <a data-menuanchor="third" class="btn btn-default" href="#third">3</a>
-    <a data-menuanchor="fourth" class="btn btn-default" href="#fourth">4</a>
-</div>
+<ul id="menu">
+    <li data-menuanchor="home"><a href="#home"><i class="fa fa-home fa-fw"></i></a></li>
+    <li data-menuanchor="about"><a href="#about"><i class="fa fa-male fa-fw"></i></a></li>
+    <li data-menuanchor="timeline"><a href="#timeline"><i class="fa fa-calendar fa-fw"></i></a></li>
+    <li data-menuanchor="skills"><a href="#skills"><i class="fa fa-star-half-o fa-fw"></i></a></li>
+    <li data-menuanchor="projects"><a href="#projects"><i class="fa fa-code fa-fw"></i></a></li>
+    <li data-menuanchor="contact"><a href="#contact"><i class="fa fa-envelope-o fa-fw"></i></a></li>
+</ul>
 <div id="fullpage">
-    <div class="section" data-anchor="first">
+    <div class="section" data-anchor="home">
         <div>
-            <p style="text-align: center;">Pierwszy</p>
+            <p>Pierwszy</p>
         </div>
     </div>
-    <div class="section" data-anchor="second">
+    <div class="section" data-anchor="about">
         <div>
-            <p style="text-align: center;">Drugi</p>
+            <p>Drugi</p>
         </div>
     </div>
-    <div class="section" data-anchor="third">
+    <div class="section" data-anchor="timeline">
         <div>
-            <p style="text-align: center;">Trzeci</p>
+            <p>Trzeci</p>
         </div>
     </div>
-    <div class="section" data-anchor="fourth">
+    <div class="section" data-anchor="skills">
         <div>
-            <p style="text-align: center;">Czwarty</p>
+            <p>Czwarty</p>
+        </div>
+    </div>
+    <div class="section" data-anchor="projects">
+        <div>
+            <p>Piaty</p>
+        </div>
+    </div>
+    <div class="section" data-anchor="contact">
+        <div>
+            <p>Szosty</p>
         </div>
     </div>
 </div>
