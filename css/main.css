@@ -1,3 +1,6 @@
+* {
+    font-family: Verdana;
+}
 .active {
     background-color: #95a5a6;
 }
@@ -24,4 +27,19 @@ li > a {
 }
 p {
     text-align: center;
+}
+a:hover {
+    position: relative;
+    color: blue !important;
+}
+a[title]:hover:after {
+    content: attr(title);
+    padding: 10px 5px;
+    color: blue;
+    position: absolute;
+    right: 110%;
+    top: 0;
+    z-index: 2;
+    white-space: nowrap;
+    transition: 2s;
 }
