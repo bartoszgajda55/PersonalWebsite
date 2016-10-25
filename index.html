@@ -17,11 +17,31 @@
     <script>
         $(document).ready(function () {
             $('#fullpage').fullpage({
-                sectionsColor: ['#ecf0f1', '#3498db', '#9b59b6', '#34495e', '#e74c3c', '#e67e22'],
+                sectionsColor: ['#27ae60', '#3498db', '#9b59b6', '#34495e', '#e74c3c', '#e67e22'],
                 anchors: ['home', 'about', 'timeline', 'skills', 'projects', 'contact'],
                 menu: '#menu',
                 responsiveWidth: 900
             });
+            function locationHashChanged() {
+                switch (location.hash) {
+                    case "#about":
+                        $("#2").addClass("animated fadeInLeftBig");
+                        break;
+                    case "#timeline":
+                        $("#3").addClass("animated fadeInLeftBig");
+                        break;
+                    case "#skills":
+                        $("#4").addClass("animated fadeInLeftBig");
+                        break;
+                    case "#projects":
+                        $("#5").addClass("animated fadeInLeftBig");
+                        break;
+                    case "#contact":
+                        $("#6").addClass("animated fadeInLeftBig");
+                        break;
+                }
+            }
+            window.onhashchange = locationHashChanged;
         });
     </script>
     <title>BartoszGajda.com</title>
@@ -38,32 +58,32 @@
 <div id="fullpage">
     <div class="section" data-anchor="home">
         <div>
-            <p id="home">Home</p>
+            <p class="animated fadeInLeftBig" id="1">Home</p>
         </div>
     </div>
     <div class="section" data-anchor="about">
         <div>
-            <p id="about">About</p>
+            <p id="2">About</p>
         </div>
     </div>
     <div class="section" data-anchor="timeline">
         <div>
-            <p>Timeline</p>
+            <p id="3">Timeline</p>
         </div>
     </div>
     <div class="section" data-anchor="skills">
         <div>
-            <p>Skills</p>
+            <p id="4">Skills</p>
         </div>
     </div>
     <div class="section" data-anchor="projects">
         <div>
-            <p>Projects</p>
+            <p id="5">Projects</p>
         </div>
     </div>
     <div class="section" data-anchor="contact">
         <div>
-            <p>Contact</p>
+            <p id="6">Contact</p>
         </div>
     </div>
 </div>
