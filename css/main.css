@@ -1,8 +1,8 @@
 * {
     font-family: Verdana;
 }
-.active {
-    background-color: #95a5a6;
+li.active {
+    border: 1px white solid;
 }
 li {
     height: 40px;
@@ -19,6 +19,7 @@ ul {
 }
 i {
     text-align: center;
+    color: white;
 }
 li > a {
     padding: 10px;
@@ -31,12 +32,12 @@ p {
 }
 a:hover {
     position: relative;
-    color: blue !important;
+
 }
-a[title]:hover:after {
-    content: attr(title);
+a[value]:hover:after {
+    content: attr(value);
     padding: 10px 5px;
-    color: blue;
+    color: white;
     position: absolute;
     right: 110%;
     top: 0;

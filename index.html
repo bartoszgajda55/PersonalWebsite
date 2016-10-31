@@ -25,19 +25,19 @@
             function locationHashChanged() {
                 switch (location.hash) {
                     case "#about":
-                        $("#2").addClass("animated fadeInLeftBig");
+                        $(".about").addClass("animated fadeInLeftBig");
                         break;
                     case "#timeline":
-                        $("#3").addClass("animated fadeInLeftBig");
+                        $(".timeline").addClass("animated fadeInLeftBig");
                         break;
                     case "#skills":
-                        $("#4").addClass("animated fadeInLeftBig");
+                        $(".skills").addClass("animated fadeInLeftBig");
                         break;
                     case "#projects":
-                        $("#5").addClass("animated fadeInLeftBig");
+                        $(".projects").addClass("animated fadeInLeftBig");
                         break;
                     case "#contact":
-                        $("#6").addClass("animated fadeInLeftBig");
+                        $(".contact").addClass("animated fadeInLeftBig");
                         break;
                 }
             }
@@ -48,42 +48,43 @@
 </head>
 <body>
 <ul id="menu">
-    <li data-menuanchor="home"><a href="#home" title="Home"><i class="fa fa-home fa-fw"></i></a></li>
-    <li data-menuanchor="about"><a href="#about" title="About"><i class="fa fa-male fa-fw"></i></a></li>
-    <li data-menuanchor="timeline"><a href="#timeline" title="Timeline"><i class="fa fa-calendar fa-fw"></i></a></li>
-    <li data-menuanchor="skills"><a href="#skills" title="Skills"><i class="fa fa-star-half-o fa-fw"></i></a></li>
-    <li data-menuanchor="projects"><a href="#projects" title="Projects"><i class="fa fa-code fa-fw"></i></a></li>
-    <li data-menuanchor="contact"><a href="#contact" title="Contact"><i class="fa fa-envelope-o fa-fw"></i></a></li>
+    <li data-menuanchor="home"><a href="#home" value="Home"><i class="fa fa-home fa-fw"></i></a></li>
+    <li data-menuanchor="about"><a href="#about" value="About"><i class="fa fa-male fa-fw"></i></a></li>
+    <li data-menuanchor="timeline"><a href="#timeline" value="Timeline"><i class="fa fa-calendar fa-fw"></i></a></li>
+    <li data-menuanchor="skills"><a href="#skills" value="Skills"><i class="fa fa-star-half-o fa-fw"></i></a></li>
+    <li data-menuanchor="projects"><a href="#projects" value="Projects"><i class="fa fa-code fa-fw"></i></a></li>
+    <li data-menuanchor="contact"><a href="#contact" value="Contact"><i class="fa fa-envelope-o fa-fw"></i></a></li>
 </ul>
 <div id="fullpage">
     <div class="section" data-anchor="home">
         <div>
-            <p class="animated fadeInLeftBig" id="1">Home</p>
+            <p class="animated bounceInUp" style="font-size: 100px;">Home</p>
+            <p class="animated bounceInUp" style="font-size: 80px; -webkit-animation-delay: 0.2s;">Sub title</p>
         </div>
     </div>
     <div class="section" data-anchor="about">
         <div>
-            <p id="2">About</p>
+            <p class="about" style="font-size: 100px;">About</p>
         </div>
     </div>
     <div class="section" data-anchor="timeline">
         <div>
-            <p id="3">Timeline</p>
+            <p class="timeline" style="font-size: 100px;">Timeline</p>
         </div>
     </div>
     <div class="section" data-anchor="skills">
         <div>
-            <p id="4">Skills</p>
+            <p class="skills" style="font-size: 100px;">Skills</p>
         </div>
     </div>
     <div class="section" data-anchor="projects">
         <div>
-            <p id="5">Projects</p>
+            <p class="projects" style="font-size: 100px;">Projects</p>
         </div>
     </div>
     <div class="section" data-anchor="contact">
         <div>
-            <p id="6">Contact</p>
+            <p class="contact" style="font-size: 100px;">Contact</p>
         </div>
     </div>
 </div>
