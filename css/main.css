@@ -18,10 +18,10 @@ ul {
     z-index: 1;
 }
 i {
-    text-align: center;
     color: white;
 }
 li > a {
+    text-align: center;
     padding: 10px;
     display: block;
     color: black;
