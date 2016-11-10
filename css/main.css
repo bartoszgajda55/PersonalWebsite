@@ -2,7 +2,7 @@
     font-family: Verdana;
 }
 li.active {
-    border: 1px white solid;
+    background-color: rgba(255,255,255,0.2);
 }
 li {
     height: 40px;
@@ -32,12 +32,14 @@ p {
 }
 a:hover {
     position: relative;
-
 }
-a[value]:hover:after {
+a:hover > i {
+    color: silver;
+}
+a[value]:hover:before {
     content: attr(value);
     padding: 10px 5px;
-    color: white;
+    color: silver;
     position: absolute;
     right: 110%;
     top: 0;
