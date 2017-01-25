@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.8/jquery.fullPage.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
     <script src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -23,19 +24,19 @@
             function locationHashChanged() {
                 switch (location.hash) {
                     case "#about":
-                        $(".about").addClass("animated fadeInLeftBig");
+                        $(".about").addClass("animated fadeInLeftBig").removeClass("hidden");
                         break;
                     case "#timeline":
-                        $(".timeline").addClass("animated fadeInLeftBig");
+                        $(".timeline").addClass("animated fadeInLeftBig").removeClass("hidden");
                         break;
                     case "#skills":
-                        $(".skills").addClass("animated fadeInLeftBig");
+                        $(".skills").addClass("animated fadeInLeftBig").removeClass("hidden");
                         break;
                     case "#projects":
-                        $(".projects").addClass("animated fadeInLeftBig");
+                        $(".projects").addClass("animated fadeInLeftBig").removeClass("hidden");
                         break;
                     case "#contact":
-                        $(".contact").addClass("animated fadeInLeftBig");
+                        $(".contact").addClass("animated fadeInLeftBig").removeClass("hidden");
                         break;
                 }
             }
@@ -62,27 +63,27 @@
     </div>
     <div class="section" data-anchor="about">
         <div>
-            <p class="about" style="font-size: 100px;">About</p>
+            <p class="about hidden" style="font-size: 100px;">About</p>
         </div>
     </div>
     <div class="section" data-anchor="timeline">
         <div>
-            <p class="timeline" style="font-size: 100px;">Timeline</p>
+            <p class="timeline hidden" style="font-size: 100px;">Timeline</p>
         </div>
     </div>
     <div class="section" data-anchor="skills">
         <div>
-            <p class="skills" style="font-size: 100px;">Skills</p>
+            <p class="skills hidden" style="font-size: 100px;">Skills</p>
         </div>
     </div>
     <div class="section" data-anchor="projects">
         <div>
-            <p class="projects" style="font-size: 100px;">Projects</p>
+            <p class="projects hidden" style="font-size: 100px;">Projects</p>
         </div>
     </div>
     <div class="section" data-anchor="contact">
         <div>
-            <p class="contact" style="font-size: 100px;">Contact</p>
+            <p class="contact hidden" style="font-size: 100px;">Contact</p>
         </div>
     </div>
 </div>

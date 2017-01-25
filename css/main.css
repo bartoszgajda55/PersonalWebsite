@@ -1,6 +1,12 @@
+/* General styles */
+
 * {
-    font-family: Verdana;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
 }
+
+/* Navigation styles */
 li.active {
     background-color: rgba(255,255,255,0.2);
 }
@@ -9,7 +15,7 @@ li {
     width: 50px;
 }
 ul {
-    margin: 0 !important;
+    margin-bottom: 0 !important;
     padding: 0;
     list-style: none;
     position: fixed;
@@ -36,7 +42,7 @@ a:hover {
 a:hover > i {
     color: silver;
 }
-a[value]:hover:before {
+a[value]:hover::before {
     content: attr(value);
     padding: 10px 5px;
     color: silver;
@@ -45,5 +51,4 @@ a[value]:hover:before {
     top: 0;
     z-index: 2;
     white-space: nowrap;
-    transition: 2s;
 }
