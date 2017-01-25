@@ -21,6 +21,7 @@
                 menu: '#menu',
                 responsiveWidth: 1100
             });
+            
             function locationHashChanged() {
                 switch (location.hash) {
                     case "#about":
@@ -40,7 +41,16 @@
                         break;
                 }
             }
-            window.onhashchange = locationHashChanged;
+
+            if(window.innerWidth <= 1100) {
+                $(".about").removeClass("hidden");
+                $(".timeline").removeClass("hidden");
+                $(".skills").removeClass("hidden");
+                $(".projects").removeClass("hidden");
+                $(".contact").removeClass("hidden");
+            } else {
+                window.onhashchange = locationHashChanged;
+            }
         });
     </script>
     <title>BartoszGajda.com</title>
