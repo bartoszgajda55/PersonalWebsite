@@ -9,6 +9,12 @@
     margin: 0;
     padding: 0;
 }
+.container-fluid {
+    padding: 0 0 0 0 !important;
+}
+.row {
+    margin: 0 0 0 0 !important;
+}
 
 /* Navigation sidebar */
 li.active {
@@ -59,12 +65,18 @@ a[value]:hover::before {
 
 /* Home */
 #particles-js{
-  width: 100%;
-  height: 100%;
-  background-color: #232323;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-color: #232323;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+#home_title {
+    top: 200px;
+    position: absolute;
+    font-size: 80px;
 }
 /* About */
 /* Timeline */
