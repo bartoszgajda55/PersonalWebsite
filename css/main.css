@@ -1,3 +1,8 @@
+/* 
+    60%: #232323
+    30%: #4062BB
+    10%: #FFF
+*/
 /* General */
 * {
     font-family: 'Raleway';
@@ -23,7 +28,7 @@ ul {
     z-index: 1;
 }
 i {
-    color: white;
+    color: #FFF;
 }
 li > a {
     text-align: center;
@@ -39,7 +44,7 @@ a:hover {
     position: relative;
 }
 a:hover > i {
-    color: #79ADDC;
+    color: #5CA7D9;
 }
 a[value]:hover::before {
     content: attr(value);

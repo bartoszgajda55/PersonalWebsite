@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $('#fullpage').fullpage({
-        sectionsColor: ['#4062BB', '#465C69', '#543C69', '#34495E', '#8D4B4E', '#746348'],
+        sectionsColor: ['#4062BB', '#232323', '#543C69', '#34495E', '#8D4B4E', '#746348'],
         anchors: ['home', 'about', 'timeline', 'skills', 'projects', 'contact'],
         menu: '#menu',
         responsiveWidth: 1100
