@@ -1,12 +1,11 @@
-/* General styles */
-
+/* General */
 * {
     font-family: 'Raleway';
     margin: 0;
     padding: 0;
 }
 
-/* Navigation styles */
+/* Navigation sidebar */
 li.active {
     background-color: rgba(255,255,255,0.2);
 }
@@ -40,15 +39,22 @@ a:hover {
     position: relative;
 }
 a:hover > i {
-    color: silver;
+    color: #79ADDC;
 }
 a[value]:hover::before {
     content: attr(value);
     padding: 10px 5px;
-    color: silver;
+    color: #79ADDC;
     position: absolute;
     right: 110%;
     top: 0;
     z-index: 2;
     white-space: nowrap;
 }
+
+/* Home */
+/* About */
+/* Timeline */
+/* Skills */
+/* Projects */
+/* Contact */
