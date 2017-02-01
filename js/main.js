@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $('#fullpage').fullpage({
-        sectionsColor: ['#232323', '#4062BB', '#543C69', '#34495E', '#8D4B4E', '#746348'],
+        sectionsColor: ['#232323', '#1242BA', '#543C69', '#34495E', '#8D4B4E', '#746348'],
         anchors: ['home', 'about', 'timeline', 'skills', 'projects', 'contact'],
         menu: '#menu',
         responsiveWidth: 1100
@@ -44,7 +44,7 @@ $(document).ready(function () {
         }
       },
       "color": {
-        "value": "#4062bb"
+        "value": "#517ACC"
       },
       "shape": {
         "type": "circle",
@@ -84,7 +84,7 @@ $(document).ready(function () {
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#4062bb",
+        "color": "#1242BA",
         "opacity": 0.4,
         "width": 1.5
       },

@@ -51,7 +51,7 @@ a:hover {
     position: relative;
 }
 a:hover > i {
-    color: #5CA7D9;
+    color: #79ADDC;
 }
 a[value]:hover::before {
     content: attr(value);
