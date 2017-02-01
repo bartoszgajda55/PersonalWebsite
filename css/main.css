@@ -85,7 +85,10 @@ a[value]:hover::before {
 }
 .title {
     text-align: center;
-    padding-top: 20%;
+    padding-top: 10%;
+}
+.title img {
+    width: 250px;
 }
 .title h1 {
     font-size: 100px;
@@ -101,6 +104,16 @@ a[value]:hover::before {
 }
 
 /* About */
+.about h1 {
+    font-size: 80px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.about p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
 /* Timeline */
 /* Skills */
 /* Projects */
