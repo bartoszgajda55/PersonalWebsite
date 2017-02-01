@@ -68,7 +68,7 @@ a[value]:hover::before {
 #particles-js{
     width: 100%;
     height: 100%;
-    background-color: #232323;
+    background-image: url(http://cdn.pcwallart.com/images/blue-gradient-wallpaper-2.jpg);
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
