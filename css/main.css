@@ -14,14 +14,14 @@
 }
 
 /* Navigation sidebar */
-li.active {
+.navi ul li.active {
     background-color: rgba(255,255,255,0.2);
 }
-li {
+.navi ul li {
     height: 40px;
     width: 50px;
 }
-ul {
+.navi ul {
     margin-bottom: 0 !important;
     padding: 0;
     list-style: none;
@@ -30,26 +30,26 @@ ul {
     right: 0;
     z-index: 1;
 }
-i {
+.navi ul li i {
     color: #B1C1C0;
 }
-li > a {
+.navi ul li > a {
     text-align: center;
     padding: 10px;
     display: block;
     color: black;
 }
-p {
+.navi ul li p {
     text-align: center;
     color: white;
 }
-a:hover {
+.navi ul li a:hover {
     position: relative;
 }
-a:hover > i {
+.navi ul li a:hover > i {
     color: #79ADDC;
 }
-a[value]:hover::before {
+.navi ul li a[value]:hover::before {
     content: attr(value);
     padding: 10px 5px;
     color: #79ADDC;
@@ -231,6 +231,15 @@ html {
     font-size: 80px;
     font-weight: 100;
     margin-bottom: 50px;
+}
+.skills ul {
+    margin-top: 25px;
+}
+.skills ul li {
+    list-style: none;
+    border-bottom: 1px solid #6D88CC;
+    margin-bottom: 10px;
+
 }
 /* Projects */
 /* Contact */

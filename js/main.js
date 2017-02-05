@@ -7,21 +7,21 @@ $(document).ready(function () {
     });
     function locationHashChanged() {
             switch (location.hash) {
-                case "#about":
-                    $(".about").addClass("animated fadeInLeftBig").removeClass("hidden");
-                    break;
-                case "#timeline":
-                    $(".timeline").addClass("animated fadeInLeftBig").removeClass("hidden");
-                    break;
-                case "#skills":
-                    $(".skills").addClass("animated fadeInLeftBig").removeClass("hidden");
-                    break;
-                case "#projects":
-                    $(".projects").addClass("animated fadeInLeftBig").removeClass("hidden");
-                    break;
-                case "#contact":
-                    $(".contact").addClass("animated fadeInLeftBig").removeClass("hidden");
-                    break;
+                // case "#about":
+                //     $(".").addClass("animated fadeInLeftBig").removeClass("hidden");
+                //     break;
+                // case "#timeline":
+                //     $(".").addClass("animated fadeInLeftBig").removeClass("hidden");
+                //     break;
+                // case "#skills":
+                //     $(".").addClass("animated fadeInLeftBig").removeClass("hidden");
+                //     break;
+                // case "#projects":
+                //     $(".").addClass("animated fadeInLeftBig").removeClass("hidden");
+                //     break;
+                // case "#contact":
+                //     $(".").addClass("animated fadeInLeftBig").removeClass("hidden");
+                //     break;
             }
         }
     if(window.innerWidth <= 1200) {
