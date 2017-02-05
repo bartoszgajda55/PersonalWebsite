@@ -115,6 +115,10 @@ a[value]:hover::before {
     font-weight: 400;
     text-align: left;
 }
+.fig {
+    width: 300px;
+    margin: 0 auto;
+}
 /* Timeline */
 .timeline h1 {
     font-size: 80px;
@@ -213,6 +217,21 @@ html {
 }
 
 /* Skills */
+.star {
+    font-size: 40px !important;
+    color: #FFF;
+}
+.star_container {
+    text-align: center;
+}
+.skills {
+    text-align: center;
+}
+.skills h2 {
+    font-size: 80px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
 /* Projects */
 /* Contact */
 
