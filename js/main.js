@@ -158,6 +158,7 @@ $(document).ready(function () {
           density: 8,
           radius: 600,
       };
+      //Positions of large dots on timelines
       self.targets = [
           [29, 32, 48, 68],
           [29, 33, 38]
@@ -175,13 +176,13 @@ $(document).ready(function () {
           self.lines[0].dots = [];
           var y = top;
           tl.find('article:first figure').each(function () {
-              self.lines[0].dots.push([$(this).outerWidth() + 20, y + 20]);
+              self.lines[0].dots.push([$(this).outerWidth() + 20, y + 50]); //Positions of small dots - by the headings
               y += $(this).outerHeight();
           });
           self.lines[1].dots = [];
           var y = top;
           tl.find('article:last figure').each(function () {
-              self.lines[1].dots.push([canvas.width - $(this).outerWidth() - 20, y + 20]);
+              self.lines[1].dots.push([canvas.width - $(this).outerWidth() - 20, y + 50]); //Positions of small dots - by the headings
               y += $(this).outerHeight();
           });
       }
