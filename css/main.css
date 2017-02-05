@@ -152,7 +152,7 @@ html {
 .tmline h2 {
   font-weight: 400;
   font-size: 400%;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
   color: #375CBA;
 }
 .tmline h6 {
@@ -163,7 +163,7 @@ html {
 .tmline p,
 .tmline ol {
   font-weight: 400;
-  font-size: 95%;
+  font-size: 16px;
   padding: 3px 0 20px 0;
   color: #575757;
   text-align: justify;
@@ -176,6 +176,15 @@ html {
 .tmline figure {
   float: right;
   width: 100%;
+  margin-bottom: 15px;
+}
+.figure_left {
+  border-right: 7px solid #5D77BA;
+  padding-right: 10px;
+}
+.figure_right {
+  border-left: 7px solid #7F7F7F;
+  padding-left: 10px;
 }
 .tmline article {
   position: relative;
@@ -220,6 +229,12 @@ html {
         font-size: 80px;
         font-weight: 100;
         color: black;
+    }
+    .tmline canvas {
+        visibility: hidden;
+    }
+    .tmline article {
+        width: 48%;
     }
     /* Skills */
     /* Projects */

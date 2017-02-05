@@ -160,7 +160,7 @@ $(document).ready(function () {
       };
       //Positions of large dots on timelines
       self.targets = [
-          [29, 32, 48, 68],
+          [29, 32, 48],
           [29, 33, 38]
       ];
       self.dotColors = [
@@ -176,14 +176,14 @@ $(document).ready(function () {
           self.lines[0].dots = [];
           var y = top;
           tl.find('article:first figure').each(function () {
-              self.lines[0].dots.push([$(this).outerWidth() + 20, y + 50]); //Positions of small dots - by the headings
-              y += $(this).outerHeight();
+              self.lines[0].dots.push([$(this).outerWidth() - 4, y + 50]); //Positions of small dots - by the headings
+              y += $(this).outerHeight() + 15;
           });
           self.lines[1].dots = [];
           var y = top;
           tl.find('article:last figure').each(function () {
-              self.lines[1].dots.push([canvas.width - $(this).outerWidth() - 20, y + 50]); //Positions of small dots - by the headings
-              y += $(this).outerHeight();
+              self.lines[1].dots.push([canvas.width - $(this).outerWidth() + 4, y + 50]); //Positions of small dots - by the headings
+              y += $(this).outerHeight() + 15;
           });
       }
       function OnResize() {
@@ -288,7 +288,7 @@ $(document).ready(function () {
               ctx.stroke();
               ctx.closePath();
               // Dots
-              ctx.lineWidth = 1.2;
+              ctx.lineWidth = 2;
               ctx.strokeStyle = self.dotColors[i][2];
               for (var j = 0; j < self.lines[i].dots.length; j++) {
                   var dot = self.lines[i].dots[j],
