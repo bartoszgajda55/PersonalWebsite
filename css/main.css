@@ -301,7 +301,7 @@ html {
 	position: relative;
 	-webkit-transition: all 0.35s;
 	transition: all 0.35s;
-    width: 80% !important;
+    width: 75% !important;
      /* For now it will work. Then change it to scaling to different widths on certain breakpoints */
 }
 .hovereffect-7:hover img {
@@ -316,7 +316,7 @@ html {
 	font-size: 17px;
 	background-color: transparent;
 	color: #FFF;
-	padding: 1em 0;
+	padding: 0;
 	opacity: 0;
 	filter: alpha(opacity=0);
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -325,10 +325,11 @@ html {
 	top: 35%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+    width: 100%;
 }
 .hovereffect-7 a {
 	position: absolute;
-	top: 60%;
+	top: 90%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
