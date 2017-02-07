@@ -265,7 +265,7 @@ html {
     margin-top: 30px;
     color: #000;
 }
-.hovereffect-7 {
+.hovereffect {
 	width: 100%;
 	height: 100%;
 	float: left;
@@ -274,7 +274,7 @@ html {
 	text-align: center;
 	cursor: default;
 }
-.hovereffect-7 .overlay {
+.hovereffect .overlay {
 	position: absolute;
 	overflow: hidden;
 	width: 60%;
@@ -289,14 +289,14 @@ html {
 	-ms-transform: scale(0, 1);
 	transform: scale(0, 1);
 }
-.hovereffect-7:hover .overlay {
+.hovereffect:hover .overlay {
 	opacity: 1;
 	filter: alpha(opacity=100);
 	-webkit-transform: scale(1);
 	-ms-transform: scale(1);
 	transform: scale(1);
 }
-.hovereffect-7 img {
+.hovereffect img {
 	display: block;
 	position: relative;
 	-webkit-transition: all 0.35s;
@@ -304,12 +304,12 @@ html {
     width: 75% !important;
      /* For now it will work. Then change it to scaling to different widths on certain breakpoints */
 }
-.hovereffect-7:hover img {
+.hovereffect:hover img {
 	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
 	filter: brightness(0.9);
 	-webkit-filter: brightness(0.2);
 }
-.hovereffect-7 h2 {
+.hovereffect h2 {
 	text-transform: uppercase;
 	text-align: center;
 	position: relative;
@@ -327,20 +327,20 @@ html {
 	transform: translate(-50%, -50%);
     width: 100%;
 }
-.hovereffect-7 a {
+.hovereffect a {
 	position: absolute;
 	top: 90%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
-.hovereffect-7 a, .hovereffect-7 p {
+.hovereffect a, .hovereffect p {
 	color: #FFF;
 	opacity: 0;
 	filter: alpha(opacity=0);
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
-.hovereffect-7:hover a, .hovereffect-7:hover p, .hovereffect-7:hover h2 {
+.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
 	opacity: 1;
 	filter: alpha(opacity=100);
 }
