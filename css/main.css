@@ -239,8 +239,8 @@ html {
     list-style: none;
     border-bottom: 1px solid #6D88CC;
     margin-bottom: 10px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
 
 }
 /* Projects */
@@ -277,7 +277,7 @@ html {
 .hovereffect-7 .overlay {
 	position: absolute;
 	overflow: hidden;
-	width: 80%;
+	width: 60%;
 	height: 80%;
 	left: 10%;
 	top: 10%;
@@ -301,6 +301,8 @@ html {
 	position: relative;
 	-webkit-transition: all 0.35s;
 	transition: all 0.35s;
+    width: 80% !important;
+     /* For now it will work. Then change it to scaling to different widths on certain breakpoints */
 }
 .hovereffect-7:hover img {
 	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
