@@ -106,7 +106,7 @@
 
 /* About */
 .about h1 {
-    font-size: 80px;
+    font-size: 100px;
     font-weight: 100;
     margin-bottom: 30px;
 }
@@ -115,16 +115,10 @@
     font-weight: 400;
     text-align: left;
 }
-.fig {
+.fig img {
     width: 300px;
-    margin: 0 auto;
 }
 /* Timeline */
-.timeline h1 {
-    font-size: 80px;
-    font-weight: 100;
-    color: black;
-}
 body,
 html {
   color: #2C2C2C;
@@ -170,7 +164,6 @@ html {
 .tmline ol {
   font-weight: 400;
   font-size: 16px;
-  padding: 3px 0 20px 0;
   color: #575757;
   text-align: justify;
 }
@@ -277,9 +270,9 @@ html {
 .hovereffect .overlay {
 	position: absolute;
 	overflow: hidden;
-	width: 50%;
+	width: 400px;
 	height: 80%;
-	left: 10%;
+	left: 40px;
 	top: 10%;
 	border-bottom: 1px solid #FFF;
 	border-top: 1px solid #FFF;
@@ -301,8 +294,7 @@ html {
 	position: relative;
 	-webkit-transition: all 0.35s;
 	transition: all 0.35s;
-    width: 70% !important;
-     /* For now it will work. Then change it to scaling to different widths on certain breakpoints */
+    width: 450px;
 }
 .hovereffect:hover img {
 	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
@@ -371,6 +363,15 @@ html {
         font-size: 40px;
     }
     /* About */
+    .about h1 {
+        font-size: 80px;
+    }
+    .about p {
+        font-size: 18px;
+    }
+    .fig img {
+        width: 250px;
+    }
     /* Timeline */
     .timeline h1 {
         font-size: 80px;
