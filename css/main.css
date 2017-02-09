@@ -277,7 +277,7 @@ html {
 .hovereffect .overlay {
 	position: absolute;
 	overflow: hidden;
-	width: 60%;
+	width: 50%;
 	height: 80%;
 	left: 10%;
 	top: 10%;
@@ -301,7 +301,7 @@ html {
 	position: relative;
 	-webkit-transition: all 0.35s;
 	transition: all 0.35s;
-    width: 75% !important;
+    width: 70% !important;
      /* For now it will work. Then change it to scaling to different widths on certain breakpoints */
 }
 .hovereffect:hover img {
