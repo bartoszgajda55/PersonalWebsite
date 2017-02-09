@@ -345,6 +345,17 @@ html {
 	filter: alpha(opacity=100);
 }
 /* Contact */
+.contact {
+    text-align: center;    
+}
+.contact h2 {
+    font-size: 80px;
+    font-weight: 100;
+    margin-bottom: 80px;
+}
+.contact i {
+    font-size: 40px;
+}
 
 /* <1200px */
 @media (max-width: 1200px) {
