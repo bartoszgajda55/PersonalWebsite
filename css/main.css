@@ -355,6 +355,10 @@ html {
 }
 .contact i {
     font-size: 40px;
+    padding: 5px 5px;
+}
+.contact i:hover {
+    color: #8C8C8C;
 }
 
 /* <1200px */
