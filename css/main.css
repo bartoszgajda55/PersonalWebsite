@@ -227,13 +227,14 @@ html {
 }
 .skills ul {
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 .skills ul li {
     list-style: none;
     border-bottom: 1px solid #6D88CC;
     margin-bottom: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
 
 }
 /* Projects */
