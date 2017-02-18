@@ -386,14 +386,9 @@ html {
         width: 250px;
     }
     /* Timeline */
-    .timeline {
+    .tmline {
         margin-top: 80px;
         margin-bottom: 80px;
-    }
-    .timeline h1 {
-        font-size: 80px;
-        font-weight: 100;
-        color: black;
     }
     .tmline canvas {
         visibility: hidden;
