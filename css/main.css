@@ -143,12 +143,12 @@ html {
 .tmline figcaption {
     color: #000;
   font-weight: 400;
-  font-size: 190%;
+  font-size: 24px;
   -webkit-text-stroke: .25px;
 }
 .tmline h2 {
   font-weight: 400;
-  font-size: 400%;
+  font-size: 52px;
   padding-bottom: 40px;
   color: #375CBA;
 }
@@ -401,14 +401,48 @@ html {
     }
     /* About */
     /* Timeline */
-    .timeline h1 {
-        font-size: 70px;
-        font-weight: 100;
-        color: black;
+    .tmline h2 {
+        font-size: 44px;
+    }
+    .tmline figcaption {
+        font-size: 20px;
+    }
+    .tmline h4 {
+        font-size: 16px;
+    }
+    .tmline p {
+        font-size: 14px;
     }
     /* Skills */
+    .skills {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .skills ul li {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
     /* Projects */
+    .projects {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .projects h2 {
+        font-size: 80px;
+    }
+    .projects p {
+        font-size: 18px;
+    }
+    .hovereffect h2 {
+        font-size: 16px;
+    }
     /* Contact */  
+    .contact h2 {
+        font-size: 70px;
+    }
+    .contact i {
+        font-size: 34px;
+    }
 }
 
 /* <768px */
