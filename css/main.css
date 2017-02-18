@@ -418,6 +418,9 @@ html {
         margin-top: 80px;
         margin-bottom: 80px;
     }
+    .skills h2 {
+        font-size: 70px;
+    }
     .skills ul li {
         margin-left: 30%;
         margin-right: 30%;
@@ -428,7 +431,7 @@ html {
         margin-bottom: 80px;
     }
     .projects h2 {
-        font-size: 80px;
+        font-size: 70px;
     }
     .projects p {
         font-size: 18px;
@@ -449,12 +452,18 @@ html {
 @media (max-width: 768px) {
     /* Home */
     .title h1 {
-        font-size: 50px;
+        font-size: 60px;
     }
     .title h2 {
         font-size: 29px;
     }
     /* About */
+    .about h1 {
+        font-size: 60px;
+    }
+    .about p {
+        font-size: 16px;
+    }
     /* Timeline */
     .timeline h1 {
         font-size: 50px;
@@ -462,6 +471,18 @@ html {
         color: black;
     }
     /* Skills */
+    .skills h2 {
+        font-size: 60px;
+    }
     /* Projects */
+    .projects h2 {
+        font-size: 60px;
+    }
+    .projects p {
+        font-size: 16px;
+    }
+    .hovereffect h2 {
+        font-size: 15px;
+    }
     /* Contact */  
 }
