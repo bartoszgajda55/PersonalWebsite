@@ -361,6 +361,10 @@ html {
 /* <1200px */
 @media (max-width: 1200px) {
     /* Home */
+    .title {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
     .title h1 {
         font-size: 80px;
     }
@@ -368,6 +372,10 @@ html {
         font-size: 40px;
     }
     /* About */
+    .about {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
     .about h1 {
         font-size: 80px;
     }
@@ -378,6 +386,10 @@ html {
         width: 250px;
     }
     /* Timeline */
+    .timeline {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
     .timeline h1 {
         font-size: 80px;
         font-weight: 100;
