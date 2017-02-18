@@ -238,9 +238,6 @@ html {
 
 }
 /* Projects */
-.projects {
-    margin-bottom: 50px;
-}
 .projects h2 {
     font-size: 80px;
     font-weight: 100;
@@ -271,9 +268,8 @@ html {
 .hovereffect .overlay {
 	position: absolute;
 	overflow: hidden;
-	width: 400px;
+	width: 80%;
 	height: 80%;
-	left: 40px;
 	top: 10%;
 	border-bottom: 1px solid #FFF;
 	border-top: 1px solid #FFF;
@@ -295,7 +291,7 @@ html {
 	position: relative;
 	-webkit-transition: all 0.35s;
 	transition: all 0.35s;
-    width: 450px;
+    width: 80%;
 }
 .hovereffect:hover img {
 	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
@@ -309,7 +305,8 @@ html {
 	font-size: 17px;
 	background-color: transparent;
 	color: #FFF;
-	padding: 0;
+	padding-left: 10%;
+    padding-right: 10%;
 	opacity: 0;
 	filter: alpha(opacity=0);
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -354,6 +351,13 @@ html {
     color: #8C8C8C;
 }
 
+/* <1400px - Special media query for images in projects section */
+@media (max-width: 1400px) {
+    .hovereffect img {
+        width: 90%;
+    }
+}
+
 /* <1200px */
 @media (max-width: 1200px) {
     /* Home */
@@ -387,6 +391,10 @@ html {
     }
     /* Skills */
     /* Projects */
+    .projects {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
     /* Contact */    
 }
 
