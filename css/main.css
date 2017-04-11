@@ -476,8 +476,11 @@ html {
     .title h2 {
         font-size: 29px;
     }
-    .home {
-        margin-bottom: 200px;
+    .title {
+        margin-top: 40px;
+    }
+    .home_section {
+        height: 1000px !important;
     }
     /* About */
     .about h1 {
