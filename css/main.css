@@ -384,6 +384,7 @@ html {
     }
     .fig img {
         width: 250px;
+        margin-top: 30%;
     }
     /* Timeline */
     .tmline {
@@ -415,6 +416,9 @@ html {
         font-size: 34px;
     }
     /* About */
+    .fig img {
+        margin-top: 30%;
+    }
     /* Timeline */
     .tmline h2 {
         font-size: 44px;
@@ -471,6 +475,9 @@ html {
     }
     .title h2 {
         font-size: 29px;
+    }
+    .home {
+        margin-bottom: 200px;
     }
     /* About */
     .about h1 {
